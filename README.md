@@ -31,3 +31,6 @@ Edit: After seeing the version by Yihang Yin (linked in replies, check it out!),
 3: Those BEQs lead to either the correct opcode being called, or to the correct branch that will store the nonshifted value (if matches 7 << 19, store 7) in either RA or RB. 
 
 I think this primarily is what led to my version's performance gains, although it definitely is less cool haha. It takes about 1078 instrs to execute the p1 spec, which normally takes 17 instrs, meaning it took about 63.4 instrs to execute each instr. I estimate off this it takes anywhere between 60 to 70 instructions to execute one instr.
+
+# LC-2K
+I'm not sure if I'm allowed to upload a spec of LC-2K, so I'm not going to. But it can fairly easily found by looking up LC-2K. It's basically an ISA with only 8 instructions.
